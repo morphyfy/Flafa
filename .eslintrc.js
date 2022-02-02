@@ -12,8 +12,13 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: "module",
   },
-  plugins: ["react", "@typescript-eslint", "react-hooks"],
-  rules: {},
+  plugins: ["react", "@typescript-eslint"],
+  rules: {
+    "require-jsdoc": 0,
+    "new-cap": 0,
+    // disabled any valid js-doc comments
+    "valid-jsdoc": 0,
+  },
   settings: {
     react: {
       version: "latest",

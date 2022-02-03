@@ -6,5 +6,5 @@ const Heading = styled.h1`
 `;
 
 export default function Index() {
-  return <Heading>Hello World</Heading>;
+  return <Heading>My Blog</Heading>;
 }

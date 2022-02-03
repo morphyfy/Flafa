@@ -30,8 +30,7 @@
     "incremental": false,
     "baseUrl": ".",
     "paths": {
-      "~/*": ["./app/*"],
-      "@components/*": ["./app/components/*"]
+      "~/*": ["./app/*"]
     },
 
     // Remix takes care of building everything in `remix build`.
